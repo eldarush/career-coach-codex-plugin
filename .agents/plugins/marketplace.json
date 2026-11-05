@@ -1,0 +1,10 @@
+{
+  "name": "career-coach-public",
+  "interface": { "displayName": "Career Coach by eldarush" },
+  "plugins": [{
+    "name": "career-coach-local",
+    "source": { "source": "local", "path": "./plugins/career-coach-local" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}
